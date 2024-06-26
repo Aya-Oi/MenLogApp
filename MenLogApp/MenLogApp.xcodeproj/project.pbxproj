@@ -9,21 +9,24 @@
 /* Begin PBXBuildFile section */
 		8489F6B32C2C369A00CEACC9 /* MenLogAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489F6A02C2C369700CEACC9 /* MenLogAppApp.swift */; };
 		8489F6B42C2C369A00CEACC9 /* MenLogAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489F6A02C2C369700CEACC9 /* MenLogAppApp.swift */; };
-		8489F6B52C2C369A00CEACC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489F6A12C2C369700CEACC9 /* ContentView.swift */; };
-		8489F6B62C2C369A00CEACC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489F6A12C2C369700CEACC9 /* ContentView.swift */; };
+		8489F6B52C2C369A00CEACC9 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489F6A12C2C369700CEACC9 /* SplashView.swift */; };
+		8489F6B62C2C369A00CEACC9 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489F6A12C2C369700CEACC9 /* SplashView.swift */; };
 		8489F6B72C2C369A00CEACC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8489F6A22C2C369A00CEACC9 /* Assets.xcassets */; };
 		8489F6B82C2C369A00CEACC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8489F6A22C2C369A00CEACC9 /* Assets.xcassets */; };
+		8489F6C72C2C3B8800CEACC9 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489F6C62C2C3B8800CEACC9 /* SignUpView.swift */; };
+		8489F6C82C2C3B8800CEACC9 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489F6C62C2C3B8800CEACC9 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8489F6A02C2C369700CEACC9 /* MenLogAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenLogAppApp.swift; sourceTree = "<group>"; };
-		8489F6A12C2C369700CEACC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8489F6A12C2C369700CEACC9 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		8489F6A22C2C369A00CEACC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8489F6A72C2C369A00CEACC9 /* MenLogApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenLogApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8489F6AA2C2C369A00CEACC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8489F6AF2C2C369A00CEACC9 /* MenLogApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenLogApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8489F6B12C2C369A00CEACC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8489F6B22C2C369A00CEACC9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		8489F6C62C2C3B8800CEACC9 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,10 @@
 		8489F69F2C2C369700CEACC9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				8489F6A02C2C369700CEACC9 /* MenLogAppApp.swift */,
-				8489F6A12C2C369700CEACC9 /* ContentView.swift */,
 				8489F6A22C2C369A00CEACC9 /* Assets.xcassets */,
+				8489F6A02C2C369700CEACC9 /* MenLogAppApp.swift */,
+				8489F6C62C2C3B8800CEACC9 /* SignUpView.swift */,
+				8489F6A12C2C369700CEACC9 /* SplashView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -187,7 +191,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8489F6B52C2C369A00CEACC9 /* ContentView.swift in Sources */,
+				8489F6B52C2C369A00CEACC9 /* SplashView.swift in Sources */,
+				8489F6C72C2C3B8800CEACC9 /* SignUpView.swift in Sources */,
 				8489F6B32C2C369A00CEACC9 /* MenLogAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +201,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8489F6B62C2C369A00CEACC9 /* ContentView.swift in Sources */,
+				8489F6B62C2C369A00CEACC9 /* SplashView.swift in Sources */,
+				8489F6C82C2C3B8800CEACC9 /* SignUpView.swift in Sources */,
 				8489F6B42C2C369A00CEACC9 /* MenLogAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
